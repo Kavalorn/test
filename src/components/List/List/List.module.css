@@ -1,0 +1,18 @@
+.loading {
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.noRepos {
+    padding: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: #bbb;
+}

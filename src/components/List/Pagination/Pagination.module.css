@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 15px;
+    position: relative;
+    user-select: none;
+}
+
+.active:before {
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #65B79A;
+}
+
+.active {
+
+}
+
+.disabled {
+    color: #eee;
+}
