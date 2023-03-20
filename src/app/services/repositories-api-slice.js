@@ -1,7 +1,7 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
 import axiosBaseQuery from '../axiosBaseQuery';
 
-const GITHUB_API_KEY = "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";
+const GITHUB_API_KEY = "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";
 
 export const repositoriesApiSlice = createApi({
   reducerPath: 'githubApi',
